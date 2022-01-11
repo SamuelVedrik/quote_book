@@ -13,3 +13,64 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+    background-color: #030815;
+}
+
+h1.title {
+    color: white;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 4em;
+}
+
+.quote {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -30px;
+}
+
+.quote-container {
+    border-radius: 10px;
+    padding: 5px 30px 10px 30px;
+    background-color: rgba(180,180,180, 0.5);
+}
+
+.quote-body{
+    font-family: 'Lucida Handwriting', cursive;
+    white-space: pre-line;
+    max-width: 400px;
+    word-wrap: break-word;
+}
+
+.quote-author{
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #00218c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
